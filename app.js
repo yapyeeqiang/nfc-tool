@@ -1,5 +1,7 @@
 // check if NFC is supported by the browser
+console.log('asd')
 if ('NDEFReader' in window) {
+    console.log('asd')
     const reader = new NDEFReader()
 
     // handle NFC reading
