@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+.tag-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: none;
+}
+
+.tag-message p {
+    margin: 0;
+}
+
+#scan-prompt {
+    margin-top: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#nfc-error {
+    margin-top: 20px;
+    color: red;
+}
